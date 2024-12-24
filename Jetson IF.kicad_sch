@@ -1,0 +1,26 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bfb450c3-75ff-4caf-83b2-42ebacd5d9e8")
+	(paper "A4")
+	(title_block
+		(title "MQ Rover Controller")
+		(date "2024-12-23")
+		(rev "A")
+		(company "Sierra Engineering Design")
+		(comment 1 "Rev. A Initial release")
+	)
+	(lib_symbols)
+	(text "==TODO==\nSCHEMATICS\nCommunications protocol to be determined\n\n==NOTAMS==\nNONE"
+		(exclude_from_sim no)
+		(at 215.392 150.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0584d68-2171-4b07-98d2-847b56df2737")
+	)
+)
