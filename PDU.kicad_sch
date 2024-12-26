@@ -1050,18 +1050,6 @@
 		)
 	)
 	(junction
-		(at 41.91 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0beaa052-7833-47f3-9921-370d039ae764")
-	)
-	(junction
-		(at 92.71 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ce77384-a46f-4d92-878b-cbfc07aa0be0")
-	)
-	(junction
 		(at 156.21 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1074,52 +1062,16 @@
 		(uuid "20fad403-99e4-4653-ae29-cec3dcd5c5e2")
 	)
 	(junction
-		(at 101.6 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33d47056-854a-4d10-8366-e42766503ea6")
-	)
-	(junction
 		(at 66.04 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34529f3c-c620-4171-b9c9-6cc8afa9a3ca")
 	)
 	(junction
-		(at 156.21 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40112317-68ed-4261-801c-4b6a67051f95")
-	)
-	(junction
 		(at 101.6 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "407cc0f1-9c45-49e0-b6db-6eca0fb05052")
-	)
-	(junction
-		(at 147.32 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4156a545-cca9-4bae-872f-bbe22b6a47b0")
-	)
-	(junction
-		(at 92.71 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d0fb998-b545-489e-82ba-ebc06ada4c79")
-	)
-	(junction
-		(at 41.91 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62f4bb83-428e-4190-b8ad-d54b00a20845")
-	)
-	(junction
-		(at 50.8 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65033ec5-829d-4926-8ca2-bf4aa4e63342")
+		(uuid "4e7f33a4-f705-4cf4-bffd-d6de9f91a536")
 	)
 	(junction
 		(at 101.6 33.02)
@@ -1131,7 +1083,7 @@
 		(at 50.8 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "86f20123-d530-47f8-9ef3-ed7d031850be")
+		(uuid "6e1424e0-edb0-4d30-8aab-0dac7063e91c")
 	)
 	(junction
 		(at 116.84 74.93)
@@ -1152,10 +1104,22 @@
 		(uuid "a321fd38-b9ac-4349-8ba1-04230f466932")
 	)
 	(junction
-		(at 156.21 45.72)
+		(at 156.21 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a9702365-a786-40a5-9d8a-836ebd3b295d")
+		(uuid "a5b2c479-7dc8-4ff0-a060-dd1a540ea09d")
+	)
+	(junction
+		(at 50.8 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af659945-edc2-4c9b-a75c-db1119bf9e0f")
+	)
+	(junction
+		(at 101.6 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eea6e9b8-ef0d-4ffd-89bd-6a5dd14adb32")
 	)
 	(junction
 		(at 66.04 74.93)
@@ -1164,10 +1128,10 @@
 		(uuid "f3aba446-f11f-4039-a0f6-af5313c361b9")
 	)
 	(junction
-		(at 147.32 92.71)
+		(at 156.21 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fac9e4e4-f620-4d74-9edd-38dc99d7531a")
+		(uuid "f6dc1e7b-4e4e-4c0b-8ee2-4de4a76647c0")
 	)
 	(wire
 		(pts
@@ -1191,16 +1155,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 97.79) (xy 41.91 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1377efcd-7d7d-4ee4-afa2-a1883f09603a")
-	)
-	(wire
-		(pts
 			(xy 66.04 73.66) (xy 66.04 74.93)
 		)
 		(stroke
@@ -1208,26 +1162,6 @@
 			(type default)
 		)
 		(uuid "1dc32b01-a9ec-4bad-ae10-5230dea7a678")
-	)
-	(wire
-		(pts
-			(xy 40.64 50.8) (xy 41.91 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "215d7aec-90ea-4272-998b-25c8524b490e")
-	)
-	(wire
-		(pts
-			(xy 92.71 55.88) (xy 92.71 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2602359c-7356-451a-a928-a6dc7c681fa0")
 	)
 	(wire
 		(pts
@@ -1248,16 +1182,6 @@
 			(type default)
 		)
 		(uuid "34173e3c-3399-4f69-a7ca-4c3b64aada5a")
-	)
-	(wire
-		(pts
-			(xy 156.21 41.91) (xy 156.21 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3789abda-ba88-43ea-9220-b0409b6fc311")
 	)
 	(wire
 		(pts
@@ -1331,16 +1255,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 92.71) (xy 147.32 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50694eea-ac12-4bea-84bc-79a86a5477dd")
-	)
-	(wire
-		(pts
 			(xy 156.21 87.63) (xy 163.83 87.63)
 		)
 		(stroke
@@ -1371,26 +1285,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 50.8) (xy 147.32 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63dd0754-37ec-48ba-8244-54e9f6cdadbf")
-	)
-	(wire
-		(pts
-			(xy 91.44 50.8) (xy 92.71 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a6bdb1-f7b3-47d4-98d6-12cd6a8f5dd0")
-	)
-	(wire
-		(pts
 			(xy 101.6 34.29) (xy 101.6 33.02)
 		)
 		(stroke
@@ -1401,36 +1295,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 92.71) (xy 41.91 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70676225-02f0-4c44-b33f-58eb8bf4b41e")
-	)
-	(wire
-		(pts
-			(xy 147.32 92.71) (xy 148.59 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "732f45bc-4d62-4450-804c-e8f70d6931bc")
-	)
-	(wire
-		(pts
-			(xy 41.91 50.8) (xy 43.18 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73aa5d73-c96e-488a-8d41-b068e1358e8a")
-	)
-	(wire
-		(pts
 			(xy 66.04 52.07) (xy 66.04 50.8)
 		)
 		(stroke
@@ -1438,16 +1302,6 @@
 			(type default)
 		)
 		(uuid "7a8f85ce-e033-40ff-a877-1e701d04e33b")
-	)
-	(wire
-		(pts
-			(xy 41.91 55.88) (xy 41.91 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c5b5df4-bc7d-4a22-ac35-1f8149f91c96")
 	)
 	(wire
 		(pts
@@ -1478,16 +1332,6 @@
 			(type default)
 		)
 		(uuid "87b25bdd-a728-4530-a439-bf60ee8df818")
-	)
-	(wire
-		(pts
-			(xy 92.71 92.71) (xy 93.98 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88ca5db8-d983-4ee6-ae12-0685aca1cb0c")
 	)
 	(wire
 		(pts
@@ -1561,26 +1405,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 97.79) (xy 92.71 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0785cfd-0cc3-474c-bf8c-d780f82d7549")
-	)
-	(wire
-		(pts
-			(xy 41.91 92.71) (xy 43.18 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a610ed4a-3774-4a9c-add6-9a55bd3da125")
-	)
-	(wire
-		(pts
 			(xy 116.84 74.93) (xy 156.21 74.93)
 		)
 		(stroke
@@ -1651,23 +1475,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 97.79) (xy 147.32 92.71)
+			(xy 156.21 41.91) (xy 156.21 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb984d29-dca3-493a-83fc-6f8b010c7e35")
-	)
-	(wire
-		(pts
-			(xy 147.32 55.88) (xy 147.32 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd774155-4d92-46dc-9684-e2ecdc642bba")
+		(uuid "cc8d6187-db9b-4fa2-8ab5-bbe4a9d2b112")
 	)
 	(wire
 		(pts
@@ -1681,16 +1495,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 50.8) (xy 148.59 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4294197-9f4d-4321-84c7-b9510ee0e16f")
-	)
-	(wire
-		(pts
 			(xy 116.84 33.02) (xy 156.21 33.02)
 		)
 		(stroke
@@ -1698,16 +1502,6 @@
 			(type default)
 		)
 		(uuid "d941f461-dd39-431b-bfbb-360259eab6e8")
-	)
-	(wire
-		(pts
-			(xy 91.44 92.71) (xy 92.71 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbbb2198-037c-4f89-80d5-360fd651187e")
 	)
 	(wire
 		(pts
@@ -1741,16 +1535,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 50.8) (xy 93.98 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5579007-fea2-4d81-bc84-6ebdbb620c21")
-	)
-	(wire
-		(pts
 			(xy 50.8 45.72) (xy 58.42 45.72)
 		)
 		(stroke
@@ -1769,9 +1553,9 @@
 		)
 		(uuid "fe2332e6-aa2e-4eb3-9cb0-e33da0b4ba49")
 	)
-	(text "==TODO==\nNONE\n\n==NOTAMS==\nXXEN\nEnable pins are logic level"
+	(text "==TODO==\nNONE\n\n==NOTAMS==\nXXEN\nEnable pins are logic level. Driver stages are now common emitter to reduce analysis complexity"
 		(exclude_from_sim no)
-		(at 209.804 154.178 0)
+		(at 184.404 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1782,7 +1566,7 @@
 	)
 	(global_label "RCEN"
 		(shape input)
-		(at 83.82 92.71 180)
+		(at 86.36 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1792,7 +1576,7 @@
 		)
 		(uuid "188b1af2-166d-4cf9-9527-5fe8556c1ff0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.8153 92.71 0)
+			(at 78.3553 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1826,7 +1610,7 @@
 	)
 	(global_label "RREN"
 		(shape input)
-		(at 138.43 92.71 180)
+		(at 140.97 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1836,7 +1620,7 @@
 		)
 		(uuid "473d9671-92ac-4841-b071-d88d91fcfd9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.4253 92.71 0)
+			(at 132.9653 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +1698,7 @@
 	)
 	(global_label "LCEN"
 		(shape input)
-		(at 83.82 50.8 180)
+		(at 86.36 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1924,7 +1708,7 @@
 		)
 		(uuid "99cf3672-579a-4b5b-bc17-8b019f87dd43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.0572 50.8 0)
+			(at 78.5972 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1720,7 @@
 	)
 	(global_label "RFEN"
 		(shape input)
-		(at 33.02 92.71 180)
+		(at 35.56 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1946,7 +1730,7 @@
 		)
 		(uuid "b6fe090a-0733-4378-b7cc-c1599c7d41c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.1967 92.71 0)
+			(at 27.7367 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +1742,7 @@
 	)
 	(global_label "LREN"
 		(shape input)
-		(at 138.43 50.8 180)
+		(at 140.97 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1968,7 +1752,7 @@
 		)
 		(uuid "cd636a38-6f16-4838-8de9-c0faf71cce5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.6672 50.8 0)
+			(at 133.2072 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1764,7 @@
 	)
 	(global_label "LFEN"
 		(shape input)
-		(at 33.02 50.8 180)
+		(at 35.56 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1990,7 +1774,7 @@
 		)
 		(uuid "d9b2e68c-e33a-45ae-966a-3290de0f4ffe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4386 50.8 0)
+			(at 27.9786 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,17 +1829,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 156.21 59.69 0)
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 168.91 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07117d2d-bb31-4f99-91f3-27ee95bdfab9")
-		(property "Reference" "R129"
-			(at 158.75 58.4199 0)
+		(uuid "0734b390-5dcf-40a9-812b-2535a1e481da")
+		(property "Reference" "Q47"
+			(at 175.26 46.9901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2063,8 +1847,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200R"
-			(at 158.75 60.9599 0)
+		(property "Value" "G700P06D5"
+			(at 175.26 44.4501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,8 +1856,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 154.432 59.69 90)
+		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
+			(at 173.99 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,8 +1865,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 156.21 59.69 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 168.91 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,8 +1874,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 156.21 59.69 0)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 168.91 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,51 +1883,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "3df4d25d-14df-41b3-a758-628c01e57804")
-		)
-		(pin "1"
-			(uuid "7be459d2-341b-492e-83de-b6487f420ff9")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 50.8 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07becb36-b0b2-44be-913f-34a83d91dcfc")
-		(property "Reference" "R132"
-			(at 53.34 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "200R"
-			(at 53.34 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.022 101.6 90)
+		(property "Sim.Device" "PMOS"
+			(at 168.91 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,8 +1892,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 50.8 101.6 0)
+		(property "Sim.Type" "VDMOS"
+			(at 168.91 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,225 +1901,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 50.8 101.6 0)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 168.91 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "d863b60b-1f26-4491-ad5d-292f7c37b63d")
-		)
-		(pin "1"
-			(uuid "b1410d89-163b-4cd0-b556-b9a714c22f9b")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 99.06 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "198b3c83-a732-43e0-9457-69fdb82fb843")
-		(property "Reference" "Q39"
-			(at 104.14 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 104.14 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 162.56 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 99.06 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 99.06 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 99.06 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 99.06 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e40487c5-6626-4913-a03b-ac326301249c")
 		)
 		(pin "3"
-			(uuid "e1c7a9ba-93a9-44f1-85a7-e2c6f0d801b1")
-		)
-		(pin "1"
-			(uuid "7afb6f8c-f995-4806-81d2-32fdb1d71693")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 153.67 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e3277b5-bbb8-4f3e-926d-50846b3b1d9a")
-		(property "Reference" "Q41"
-			(at 158.75 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 158.75 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 217.17 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "ab070783-e26b-41da-9ff2-a46d12333bb8")
 		)
 		(pin "2"
-			(uuid "aeee74e5-4a64-4ced-a25b-0b1a8b84b636")
-		)
-		(pin "3"
-			(uuid "a4984471-6a58-46d6-8148-0ce208f49d35")
+			(uuid "3d056861-7367-4c26-8d09-39b72b9a32a6")
 		)
 		(pin "1"
-			(uuid "abcac90c-d6b2-46bc-9279-3473a8b0ae14")
+			(uuid "6baf7184-3b17-4e12-8a12-ed3c854e60d3")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q41")
+					(reference "Q47")
 					(unit 1)
 				)
 			)
@@ -2386,7 +1930,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NPN")
-		(at 48.26 50.8 0)
+		(at 48.26 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2394,8 +1938,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22140d6e-f5cb-4a44-a1b3-43b279d51139")
-		(property "Reference" "Q38"
-			(at 53.34 49.5299 0)
+		(property "Reference" "Q37"
+			(at 53.34 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,8 +1947,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 53.34 52.0699 0)
+		(property "Value" "BC846"
+			(at 53.34 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,8 +1956,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 50.8 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 111.76 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,7 +1966,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 111.76 50.8 0)
+			(at 111.76 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +1975,7 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 48.26 50.8 0)
+			(at 48.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +1984,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 48.26 50.8 0)
+			(at 48.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +1993,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 48.26 50.8 0)
+			(at 48.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +2002,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 48.26 50.8 0)
+			(at 48.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,77 +2022,7 @@
 		(instances
 			(project ""
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 101.6 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24c7ef10-d597-4815-96d8-f32bdddad6c0")
-		(property "Reference" "R126"
-			(at 104.14 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "200R"
-			(at 104.14 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.822 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 101.6 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a431475-66bc-4560-9243-61d94491b084")
-		)
-		(pin "1"
-			(uuid "30afdb85-1739-4728-a97b-6c297570d6bc")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R126")
+					(reference "Q37")
 					(unit 1)
 				)
 			)
@@ -2556,16 +2030,16 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NPN")
-		(at 48.26 92.71 0)
+		(at 48.26 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "326e26b4-cf5f-4a90-be1a-3f308d05f762")
-		(property "Reference" "Q43"
-			(at 53.34 91.4399 0)
+		(uuid "254e8462-a99d-43d4-959d-cd73951e6d75")
+		(property "Reference" "Q38"
+			(at 53.34 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,8 +2047,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 53.34 93.9799 0)
+		(property "Value" "BC846"
+			(at 53.34 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,8 +2056,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 92.71 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +2066,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 111.76 92.71 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2075,7 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 48.26 92.71 0)
+			(at 48.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2084,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 48.26 92.71 0)
+			(at 48.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2093,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 48.26 92.71 0)
+			(at 48.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +2102,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 48.26 92.71 0)
+			(at 48.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,35 +2111,51 @@
 			)
 		)
 		(pin "2"
-			(uuid "592ea8d0-56e7-42b5-ab01-bb0f789b4e7a")
+			(uuid "0cd2b24d-0e46-4187-ada2-557bd1fab72e")
 		)
 		(pin "3"
-			(uuid "0ecf3ad1-d116-4654-8d7a-08e91a98f4da")
+			(uuid "527f80b3-b7ae-49b7-b298-f942bcfc59a6")
 		)
 		(pin "1"
-			(uuid "26c97e7f-e8b0-48cf-a518-3ce4f47cd325")
+			(uuid "3680b8ab-eddc-403f-a6bd-3ddf33eb9c91")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q43")
+					(reference "Q38")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 156.21 63.5 0)
+		(lib_id "Device:R")
+		(at 90.17 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3d58e2b4-b100-46cb-a798-15273a7764bb")
-		(property "Reference" "#PWR0127"
-			(at 156.21 69.85 0)
+		(uuid "2aa76c3d-1829-468d-8654-7e58cec5cfed")
+		(property "Reference" "R102"
+			(at 90.17 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 90.17 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 90.17 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,16 +2163,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 156.21 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 63.5 0)
+		(property "Datasheet" "~"
+			(at 90.17 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,8 +2172,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 156.21 63.5 0)
+		(property "Description" "Resistor"
+			(at 90.17 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,22 +2181,322 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "5e2c69a3-3fe5-4a2c-b992-0f8a56563eab")
 		)
 		(pin "1"
-			(uuid "e4a1f05f-4293-413f-a1ac-73a65777da4d")
+			(uuid "4dc328bf-1d55-4871-9112-5c1c4df9e7b5")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0127")
+					(reference "R102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3035dfc4-ccd3-48fb-9a5f-36c7d188a30c")
+		(property "Reference" "R103"
+			(at 104.14 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 104.14 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 99.822 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f8275d1-f1a5-4ba7-a7b3-4db8d71ee2db")
+		)
+		(pin "1"
+			(uuid "3daaf59e-3915-4aad-bdcd-209d52fbae51")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f99ac41-e89a-4387-876f-42fa481358b5")
+		(property "Reference" "R101"
+			(at 90.17 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 90.17 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 90.17 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "abe40671-e90f-4794-88db-29b94440d397")
+		)
+		(pin "1"
+			(uuid "7f43e744-8723-4d65-b2f6-bf342da3fc6f")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 99.06 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41870b2f-4116-4c06-9757-a2562d6c4af3")
+		(property "Reference" "Q42"
+			(at 104.14 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC846"
+			(at 104.14 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 99.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63819f98-5d34-421e-9090-80da9c0eb21c")
+		)
+		(pin "3"
+			(uuid "bd235d9b-2c1c-4e19-90a3-95b5bb191f18")
+		)
+		(pin "1"
+			(uuid "cd8c0ad4-3495-4d65-bf45-9b84fb61f374")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "Q42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42960599-c723-4719-8e6c-036e323110d3")
+		(property "Reference" "R105"
+			(at 144.78 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 144.78 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 144.78 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1d6f13f-8939-4c53-a239-0d45d04e8731")
+		)
+		(pin "1"
+			(uuid "bc2279d6-b504-4613-a8da-e7f2915ef9f0")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -2729,8 +2511,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3e9824d9-c849-46ce-b071-b000c13e1070")
-		(property "Reference" "Q44"
+		(uuid "486175d9-f1df-42c0-89c2-f73b53a5219f")
+		(property "Reference" "Q40"
 			(at 69.85 88.9001 0)
 			(effects
 				(font
@@ -2739,7 +2521,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "G700P06D5"
 			(at 69.85 86.3601 0)
 			(effects
 				(font
@@ -2748,7 +2530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
 			(at 68.58 90.17 0)
 			(effects
 				(font
@@ -2803,456 +2585,118 @@
 			)
 		)
 		(pin "3"
-			(uuid "833987a8-e5aa-4d52-af8c-119e8174fe2a")
+			(uuid "b93ce338-2264-4a3b-a720-fd4aa0957bb9")
 		)
 		(pin "2"
-			(uuid "aaf400dd-ebd1-4fdf-a942-bee0cc3c1499")
+			(uuid "6e737747-b73a-4764-ba81-bb0cdef69da4")
 		)
 		(pin "1"
-			(uuid "14c4552f-d530-4f23-9f90-386914d07999")
+			(uuid "3d3c5b7c-60ee-4cb3-9a7b-c1a221d82b21")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "Q40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 114.3 87.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "539ba1da-c129-45a8-807f-50779c0d6ef6")
+		(property "Reference" "Q44"
+			(at 120.65 88.9001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G700P06D5"
+			(at 120.65 86.3601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 114.3 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 114.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c59f1b27-39f8-4870-89be-ef1357a359d5")
+		)
+		(pin "2"
+			(uuid "e3bfd923-bfdd-4881-a42f-6e814ce78083")
+		)
+		(pin "1"
+			(uuid "4f60dc60-cfd0-4c16-84c6-a14f2adfbd1f")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
 					(reference "Q44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NPN")
-		(at 99.06 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44cd4907-1069-4a4e-ad22-5afc39d0a5de")
-		(property "Reference" "Q45"
-			(at 104.14 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NPN"
-			(at 104.14 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 162.56 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 99.06 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eb361a8e-b7c9-4ac6-92c3-832e722adebd")
-		)
-		(pin "3"
-			(uuid "9b9a6cae-5102-4f68-a502-9060b3f07dea")
-		)
-		(pin "1"
-			(uuid "f02569ad-024b-4fa6-af3c-869bd9406f24")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49bcf264-bb36-4150-a9aa-17127006dacc")
-		(property "Reference" "#PWR0133"
-			(at 147.32 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a722c516-100e-4c2f-be06-92e7aad11248")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 101.6 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a8547e4-8eaf-4301-88be-aaeb378c2377")
-		(property "Reference" "D5"
-			(at 104.14 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 104.14 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 101.6 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 101.6 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ec91cc7-a5bf-4c5d-8076-71c05109c9ed")
-		)
-		(pin "2"
-			(uuid "a0090f91-8aa6-495a-aef1-29f6c1fb79bf")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 101.6 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cb3ef16-e110-474f-bd37-a1a379efa048")
-		(property "Reference" "#PWR0125"
-			(at 101.6 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2d55c33-b259-4adf-ba84-667839ccf446")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e9bb723-3e8c-4deb-8f2f-5c06317dd654")
-		(property "Reference" "#PWR0126"
-			(at 147.32 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3c6c6d8-8d86-4118-9872-7649444409f3")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 50.8 80.01 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50913990-e2ae-47fa-9ebc-6b847ed459fa")
-		(property "Reference" "D4"
-			(at 53.34 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 53.34 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 50.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 50.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a4145fd-d580-4422-bbac-a0c065e73073")
-		)
-		(pin "2"
-			(uuid "1af12061-6fef-4d42-b2aa-481bdaeaf6c8")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3268,7 +2712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c10feaa-ce75-4eb9-a948-94ef4146d39f")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0115"
 			(at 66.04 77.47 0)
 			(effects
 				(font
@@ -3318,24 +2762,42 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0130")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 50.8 105.41 0)
+		(lib_id "Simulation_SPICE:NPN")
+		(at 153.67 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5f3af9a3-a855-48b4-a5ed-bbf4a1734c31")
-		(property "Reference" "#PWR0129"
-			(at 50.8 111.76 0)
+		(uuid "5cf59c23-be2a-4420-9e13-779cf9e08409")
+		(property "Reference" "Q46"
+			(at 158.75 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC846"
+			(at 158.75 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 217.17 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,16 +2805,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 50.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 105.41 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 217.17 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3360,8 +2814,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 50.8 105.41 0)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,22 +2823,46 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 105.41 0)
+		(property "Sim.Device" "NPN"
+			(at 153.67 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 153.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 153.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae81a081-85ef-46dd-a07d-bc2ba98ae0c4")
+		)
+		(pin "3"
+			(uuid "0f282ae7-7c78-4f9b-9ccb-3523a9b14d6d")
 		)
 		(pin "1"
-			(uuid "624749f3-cd89-417f-b76e-5e2d4735c9e0")
+			(uuid "43487de6-f38c-4444-b638-11a438a9f135")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0129")
+					(reference "Q46")
 					(unit 1)
 				)
 			)
@@ -3392,7 +2870,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 50.8 90)
+		(at 39.37 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3400,8 +2878,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6310f024-fb35-4b2f-96eb-2cd6be2aa412")
-		(property "Reference" "R110"
-			(at 36.83 44.45 90)
+		(property "Reference" "R97"
+			(at 39.37 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +2887,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 36.83 46.99 90)
+			(at 39.37 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +2895,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 36.83 52.578 90)
+			(at 39.37 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +2904,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 50.8 0)
+			(at 39.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,7 +2913,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.83 50.8 0)
+			(at 39.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,40 +2930,42 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R110")
+					(reference "R97")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 36.83 92.71 90)
+		(lib_id "Simulation_SPICE:PMOS")
+		(at 114.3 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bb1acae-63e2-44eb-afa4-da5ea5fc66fb")
-		(property "Reference" "R130"
-			(at 36.83 86.36 90)
+		(uuid "6c55f6c7-b2f4-46d6-b5a5-cfd44dd01fe3")
+		(property "Reference" "Q43"
+			(at 120.65 46.9901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 36.83 88.9 90)
+		(property "Value" "G700P06D5"
+			(at 120.65 44.4501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 36.83 94.488 90)
+		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
+			(at 119.38 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3493,8 +2973,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 36.83 92.71 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 114.3 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,91 +2982,55 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 36.83 92.71 0)
+		(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(at 114.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 114.3 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 114.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 114.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "41f9cf38-b481-4e71-b555-f461626809f2")
 		)
 		(pin "2"
-			(uuid "dfbe000a-fd7a-4efc-8a78-e8b0077679f8")
+			(uuid "6fdd6721-8ee0-44dd-912c-39d605760b3f")
 		)
 		(pin "1"
-			(uuid "728cc66d-f6f9-4130-971a-feddd21d19a0")
+			(uuid "9749d554-adfd-4871-9d9f-3c6cc0811ee8")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8515f225-05c4-4958-994d-d1a204267c08")
-		(property "Reference" "#PWR0128"
-			(at 41.91 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d55a73d2-edaf-433b-b3ed-5979c6992d2c")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0128")
+					(reference "Q43")
 					(unit 1)
 				)
 			)
@@ -3594,16 +3038,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 156.21 80.01 270)
+		(at 101.6 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87e2a141-ad7d-4484-a6c5-9c8cca2af10e")
-		(property "Reference" "D6"
-			(at 158.75 78.7399 90)
+		(uuid "70b8b6c7-cd25-4fc2-9082-d36ed8237c48")
+		(property "Reference" "MMSZ5240BT1G3"
+			(at 83.82 37.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,8 +3054,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
-			(at 158.75 81.2799 90)
+		(property "Value" "10V1"
+			(at 93.98 39.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,8 +3063,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 156.21 80.01 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3073,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 80.01 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3082,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 156.21 80.01 0)
+			(at 101.6 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,15 +3091,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb89561c-bcbc-4ad5-8ee2-a1a56f46d347")
+			(uuid "33bfa606-a433-4672-9903-1f859c2f39ff")
 		)
 		(pin "2"
-			(uuid "fa9a9e7b-a587-4779-9500-62488d141370")
+			(uuid "3a32f5b4-f345-4d56-afca-89f679bd4507")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "D6")
+					(reference "MMSZ5240BT1G3")
 					(unit 1)
 				)
 			)
@@ -3664,34 +3107,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 101.6 180)
+		(at 144.78 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8e4a0a6b-4fab-4310-ad82-ca84e9751af1")
-		(property "Reference" "R134"
-			(at 95.25 100.3299 0)
+		(uuid "866feabe-7153-4154-9716-3246654c3ff5")
+		(property "Reference" "R106"
+			(at 144.78 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10K"
-			(at 95.25 102.8699 0)
+		(property "Value" "1K"
+			(at 144.78 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 94.488 101.6 90)
+			(at 144.78 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3700,7 +3141,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 101.6 0)
+			(at 144.78 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3709,7 +3150,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 92.71 101.6 0)
+			(at 144.78 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,32 +3159,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "6c74d4e7-6361-4481-b457-cafe0ad12b1e")
+			(uuid "1d322a44-154f-4a34-a16d-24c4fd3cdcfe")
 		)
 		(pin "1"
-			(uuid "c7a43480-b40c-4c82-a0a6-db56dca2f822")
+			(uuid "4bd54ef2-f7fa-4667-a8e5-306f8f140ef4")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R134")
+					(reference "R106")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 50.8 59.69 0)
+		(lib_id "Device:D_Zener")
+		(at 50.8 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90a228ef-97f5-4992-ba78-a94480551953")
-		(property "Reference" "R109"
-			(at 53.34 58.4199 0)
+		(uuid "963fd67a-8e34-4bd4-99eb-5714f05f6823")
+		(property "Reference" "MMSZ5240BT1G2"
+			(at 33.02 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,8 +3191,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200R"
-			(at 53.34 60.9599 0)
+		(property "Value" "10V1"
+			(at 43.18 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3760,8 +3200,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.022 59.69 90)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 50.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +3210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 59.69 0)
+			(at 50.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,91 +3218,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 50.8 59.69 0)
+		(property "Description" "Zener diode"
+			(at 50.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "303c2414-b52c-4772-8f87-44c414a17d8b")
 		)
 		(pin "2"
-			(uuid "bb83ff2b-7168-4a2f-8859-ca22e2ef1c0c")
-		)
-		(pin "1"
-			(uuid "37771434-53a1-4990-94ce-9108f349ca43")
-		)
-		(instances
-			(project ""
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97b3ff05-da47-457a-a182-2a2c39ab5a78")
-		(property "Reference" "#PWR0131"
-			(at 92.71 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "975bbdd0-0334-400f-bbd1-079c46120af8")
+			(uuid "fb2e5551-3801-4656-95ce-f4b7ed3aabd9")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0131")
+					(reference "MMSZ5240BT1G2")
 					(unit 1)
 				)
 			)
@@ -3878,7 +3252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b94b253-8e61-45aa-a0cb-f87b3bf37934")
-		(property "Reference" "Q37"
+		(property "Reference" "Q39"
 			(at 69.85 46.9901 0)
 			(effects
 				(font
@@ -3887,7 +3261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "G700P06D5"
 			(at 69.85 44.4501 0)
 			(effects
 				(font
@@ -3896,7 +3270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
 			(at 68.58 48.26 0)
 			(effects
 				(font
@@ -3962,73 +3336,7 @@
 		(instances
 			(project ""
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ceae2c4-67ce-4305-bdb3-18a63c7711f7")
-		(property "Reference" "#PWR0124"
-			(at 92.71 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "397a34f5-568d-489d-8479-78bd3d871636")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0124")
+					(reference "Q39")
 					(unit 1)
 				)
 			)
@@ -4036,16 +3344,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 156.21 101.6 0)
+		(at 50.8 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9fe1c866-807d-4054-ae08-65f5a5748a0e")
-		(property "Reference" "R138"
-			(at 158.75 100.3299 0)
+		(uuid "9bef90a5-650f-42d0-9f99-c556ef970e46")
+		(property "Reference" "R99"
+			(at 53.34 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,8 +3361,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200R"
-			(at 158.75 102.8699 0)
+		(property "Value" "10K"
+			(at 53.34 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,7 +3371,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 154.432 101.6 90)
+			(at 49.022 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4072,7 +3380,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 101.6 0)
+			(at 50.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,7 +3389,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 156.21 101.6 0)
+			(at 50.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,15 +3398,85 @@
 			)
 		)
 		(pin "2"
-			(uuid "644a8566-84a3-47c3-b85a-ba3aa84d8a63")
+			(uuid "e6cab984-ace1-486a-8a36-c5c94477b668")
 		)
 		(pin "1"
-			(uuid "dab959ef-c2de-4326-aaa0-bd8b9595c13c")
+			(uuid "92f1f11f-7a56-479d-a837-27dae6d29f98")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R138")
+					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ccc33b9-b3c5-4c1c-80e1-7d4871db9ce2")
+		(property "Reference" "R108"
+			(at 158.75 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 158.75 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 154.432 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffa634d9-86aa-45df-af65-86cc93509bcf")
+		)
+		(pin "1"
+			(uuid "6af0ad92-2583-4286-ac9a-ad231e4eec0f")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -4106,16 +3484,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 105.41 0)
+		(at 50.8 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a5399138-bdca-431e-a193-cede98f54f0b")
-		(property "Reference" "#PWR0132"
-			(at 101.6 111.76 0)
+		(uuid "9d68d57d-f1a0-48f0-bda9-3f83612c44da")
+		(property "Reference" "#PWR0113"
+			(at 50.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +3502,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 110.49 0)
+			(at 50.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +3510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 105.41 0)
+			(at 50.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +3519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 105.41 0)
+			(at 50.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +3528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 105.41 0)
+			(at 50.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,29 +3537,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "a5d38536-67e4-4142-9563-4ecc0c3c4e84")
+			(uuid "1a4fb55b-1343-413b-928c-4dd8919c6923")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0132")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 168.91 45.72 0)
-		(mirror x)
+		(lib_id "Simulation_SPICE:NPN")
+		(at 153.67 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ac249256-8ef6-4858-ac66-68fc38202ac7")
-		(property "Reference" "Q42"
-			(at 175.26 46.9901 0)
+		(fields_autoplaced yes)
+		(uuid "a075ce57-1050-4899-8623-b8eb55cb17a3")
+		(property "Reference" "Q45"
+			(at 158.75 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,8 +3567,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
-			(at 175.26 44.4501 0)
+		(property "Value" "BC846"
+			(at 158.75 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,8 +3576,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 173.99 48.26 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 217.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,8 +3585,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 168.91 33.02 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 217.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,8 +3594,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 168.91 45.72 0)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 153.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,8 +3603,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "PMOS"
-			(at 168.91 28.575 0)
+		(property "Sim.Device" "NPN"
+			(at 153.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,8 +3612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "VDMOS"
-			(at 168.91 26.67 0)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 153.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,28 +3621,98 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 168.91 30.48 0)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 153.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "881f4735-2743-44af-95be-c28e4d8e7273")
 		)
 		(pin "3"
-			(uuid "ae998c03-2d41-413b-ae4f-709d32bfd957")
-		)
-		(pin "2"
-			(uuid "a688793d-7914-4fc8-9573-023761f8fa90")
+			(uuid "cc2cb5cc-e65d-43bb-9fa4-527065a2c241")
 		)
 		(pin "1"
-			(uuid "8efb4056-4c37-4b7e-8fd4-18f0ae82f749")
+			(uuid "d450c8ee-fa68-4357-a3b7-73f6255d01a5")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q42")
+					(reference "Q45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4d2eba2-7ac1-4aff-aaab-6235044a5441")
+		(property "Reference" "R104"
+			(at 104.14 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 104.14 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 99.822 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5dc80eb0-02e2-4c40-9d5d-26335808ac64")
+		)
+		(pin "1"
+			(uuid "ac89d849-31d6-46c4-aa1f-2b8ace6851d5")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -4272,16 +3720,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 63.5 0)
+		(at 101.6 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aca159fd-f3c4-4a46-b08c-7352a7e73a3c")
-		(property "Reference" "#PWR0123"
-			(at 41.91 69.85 0)
+		(uuid "b4e1e3e2-2beb-48fe-9d14-a99d73b6b50d")
+		(property "Reference" "#PWR0116"
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +3738,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 68.58 0)
+			(at 101.6 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +3746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 63.5 0)
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +3755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 63.5 0)
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +3764,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 63.5 0)
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,47 +3773,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "223046cf-3fd7-47bf-aba5-a23abfe2a572")
+			(uuid "0875bbf0-0ed0-4ba7-b6b8-373b61c98416")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0123")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 41.91 101.6 180)
+		(lib_id "power:GND")
+		(at 156.21 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b5afd94c-02a8-4e93-9f2a-6894488264f8")
-		(property "Reference" "R131"
-			(at 44.45 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 44.45 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 43.688 101.6 90)
+		(uuid "bafda4d8-1e7f-4fff-885e-f7df5e71b15f")
+		(property "Reference" "#PWR0118"
+			(at 156.21 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,277 +3803,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 41.91 101.6 0)
+		(property "Value" "GND"
+			(at 156.21 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 41.91 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95c6725f-05d6-4f72-863a-2c99ec8d7adf")
-		)
-		(pin "1"
-			(uuid "ae1d23e0-9ad3-4156-b3cd-0087be532923")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8b28f9b-2dd5-4052-b880-ec850c656eb0")
-		(property "Reference" "R136"
-			(at 142.24 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 142.24 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 94.488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e965436-f4aa-48fe-970d-bf9c77a6569e")
-		)
-		(pin "1"
-			(uuid "1c63e606-9d40-4b0e-bdd1-b1545cfa1f30")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 156.21 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb193ef7-e1a4-4539-b6e6-b2387093a908")
-		(property "Reference" "D3"
-			(at 158.75 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 158.75 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 156.21 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 156.21 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1bd5132-a115-4f15-933e-ca85ce4c74b4")
-		)
-		(pin "2"
-			(uuid "a4e9a7cc-ebf1-4a7d-8600-000c8c2d958d")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 41.91 59.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbf333ff-9d84-424b-952d-72f050b9e502")
-		(property "Reference" "R111"
-			(at 44.45 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 44.45 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 43.688 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 41.91 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3eaaaea9-de67-44cf-adad-56f4fa3a27e5")
-		)
-		(pin "1"
-			(uuid "a150bebb-00c9-48f8-b0b8-ebc680dddc7b")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 114.3 87.63 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc87b462-238c-4a32-bc15-308610a0d0d7")
-		(property "Reference" "Q46"
-			(at 120.65 88.9001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 120.65 86.3601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 90.17 0)
+			(at 156.21 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,8 +3820,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 114.3 74.93 0)
+		(property "Datasheet" ""
+			(at 156.21 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,55 +3829,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 114.3 87.63 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 114.3 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 114.3 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 114.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1b22ab15-9aed-4a95-8a6e-d4702c6dd542")
-		)
-		(pin "2"
-			(uuid "3bfb8f18-3855-45be-ab22-2f3184b9ef7b")
 		)
 		(pin "1"
-			(uuid "648467e4-ca51-4e76-95cd-ee08b3503a7e")
+			(uuid "1a09a488-bda3-4317-8e37-2d69ae84d287")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q46")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -4716,172 +3852,34 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 101.6 101.6 0)
+		(at 50.8 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c74d20dd-1cc9-4fe9-891a-2f4612ed6f1e")
-		(property "Reference" "R135"
-			(at 104.14 100.3299 0)
+		(uuid "be823ad1-9f2a-478a-9239-842d55eb9a8c")
+		(property "Reference" "R100"
+			(at 53.34 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Value" "200R"
-			(at 104.14 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.822 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 101.6 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab47a9a9-b407-411b-863a-0d6014a45c6e")
-		)
-		(pin "1"
-			(uuid "19d313f3-80d4-44f3-ab46-3d5602aa56d7")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 87.63 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9dbbc26-ba8e-4db1-a6a8-ee76ed3421d1")
-		(property "Reference" "R116"
-			(at 87.63 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 87.63 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 87.63 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9d44be99-6f99-4334-be56-84134dd29b0a")
-		)
-		(pin "1"
-			(uuid "e9ff30c0-de19-4631-9e5c-b44fecd76a7e")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 147.32 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcfe7fce-3653-4d06-9969-96cdb8f26754")
-		(property "Reference" "R137"
-			(at 149.86 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(property "Value" "10K"
-			(at 149.86 102.8699 0)
+			(at 53.34 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 149.098 101.6 90)
+			(at 49.022 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +3888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 101.6 0)
+			(at 50.8 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4899,7 +3897,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 101.6 0)
+			(at 50.8 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,15 +3906,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "7f1914ab-e951-4441-8374-0c1ecc27b0c8")
+			(uuid "128d66a5-44d3-4cb1-8013-6da1bd46e047")
 		)
 		(pin "1"
-			(uuid "e883f472-60cf-4e26-b364-452749333141")
+			(uuid "2fae34cb-b1ee-475e-b58a-7b97f690bdbe")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R137")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -4931,8 +3929,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ddbf6d7f-6546-4720-80ef-f3e465891358")
-		(property "Reference" "#PWR0134"
+		(uuid "c07bf1d8-d9e3-430e-86e0-bc5b9febc1fc")
+		(property "Reference" "#PWR0119"
 			(at 156.21 111.76 0)
 			(effects
 				(font
@@ -4977,29 +3975,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a1defb3-b2cf-4adc-abac-19aa9d616b4e")
+			(uuid "2004d994-6a9e-4128-a158-d6cb3d24b020")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0134")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 50.8 63.5 0)
+		(lib_id "Device:R")
+		(at 39.37 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dfa87816-b845-4eba-a165-7e1924d6c0e4")
-		(property "Reference" "#PWR0122"
-			(at 50.8 69.85 0)
+		(uuid "c40d644b-77ad-4815-8169-49eb7f6ca05a")
+		(property "Reference" "R98"
+			(at 39.37 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 39.37 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 39.37 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5007,16 +4021,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 50.8 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 63.5 0)
+		(property "Datasheet" "~"
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,8 +4030,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 50.8 63.5 0)
+		(property "Description" "Resistor"
+			(at 39.37 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,22 +4039,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "1ca23dbd-839d-4aa7-bc31-29d5ea04b179")
 		)
 		(pin "1"
-			(uuid "41f59e2f-5060-42d6-a5d6-3cabdd49323f")
+			(uuid "12483b62-0227-4cd4-846a-27278edbe2d6")
 		)
 		(instances
-			(project ""
+			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0122")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -5056,16 +4056,16 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NPN")
-		(at 153.67 92.71 0)
+		(at 99.06 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e1bb42e1-6b86-4b0a-9169-761c04549ab6")
-		(property "Reference" "Q47"
-			(at 158.75 91.4399 0)
+		(uuid "c4f34a10-ba3d-46c2-b30e-d788a856aa80")
+		(property "Reference" "Q41"
+			(at 104.14 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,8 +4073,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 158.75 93.9799 0)
+		(property "Value" "BC846"
+			(at 104.14 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,8 +4082,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 217.17 92.71 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +4092,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
-			(at 217.17 92.71 0)
+			(at 162.56 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +4101,7 @@
 			)
 		)
 		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
-			(at 153.67 92.71 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +4110,7 @@
 			)
 		)
 		(property "Sim.Device" "NPN"
-			(at 153.67 92.71 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,7 +4119,7 @@
 			)
 		)
 		(property "Sim.Type" "GUMMELPOON"
-			(at 153.67 92.71 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +4128,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 153.67 92.71 0)
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,360 +4137,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "9562b4f4-e84e-4012-907a-ed0113d1dbaa")
+			(uuid "5431a3ce-a6f8-461c-8ab1-a4d8c72141d4")
 		)
 		(pin "3"
-			(uuid "52c3324a-e490-4b27-8067-382e7e0f4d61")
+			(uuid "0f37b093-a574-418e-82a2-eb377a39e7c8")
 		)
 		(pin "1"
-			(uuid "5ebd56bb-e89a-4a4c-ab70-57f4965659d8")
+			(uuid "38cafe31-3b34-4d29-82dc-26af4500f6b4")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 87.63 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e261b0d7-9c34-4f18-82cc-a8288df550f8")
-		(property "Reference" "R133"
-			(at 87.63 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 87.63 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 87.63 94.488 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1cc12f13-fd63-466f-b4ac-d40a134e10ae")
-		)
-		(pin "1"
-			(uuid "65a5b913-fa60-47fb-bc2b-3cdbfe2dd290")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 66.04 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5edf912-b062-4192-bbec-a5481c85d82b")
-		(property "Reference" "#PWR0121"
-			(at 66.04 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 66.04 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2791d7f8-cd31-4ddb-8f10-4ad17f82dc01")
-		)
-		(instances
-			(project ""
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 142.24 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea0de61b-1cfd-4469-8592-da26bf542e8b")
-		(property "Reference" "R127"
-			(at 142.24 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 142.24 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 142.24 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 142.24 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c08455f7-a593-4a58-96e6-c002d56e5779")
-		)
-		(pin "1"
-			(uuid "74a1e788-428e-4583-8555-a8995ec8523b")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 92.71 59.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed28e831-705f-40b6-9d75-6707920210d3")
-		(property "Reference" "R125"
-			(at 95.25 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 95.25 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 94.488 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 92.71 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c3dfe83f-cb80-4b53-8593-347c8187fd3f")
-		)
-		(pin "1"
-			(uuid "c5b9904f-140e-4eaf-9bec-4104d2cd8e44")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Zener")
-		(at 50.8 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eeb9bfb5-6dd9-4eb4-b30a-4a3d6b43e9b5")
-		(property "Reference" "D1"
-			(at 53.34 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Zener"
-			(at 53.34 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 50.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Zener diode"
-			(at 50.8 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "825c0326-82c7-40c5-980c-5c30e2270e5c")
-		)
-		(pin "2"
-			(uuid "c000d47e-7ac2-4925-b4b6-b418b7bb8746")
-		)
-		(instances
-			(project ""
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "D1")
+					(reference "Q41")
 					(unit 1)
 				)
 			)
@@ -5505,7 +4163,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eec5c225-ec75-4ea6-b0a6-bdbfedd0b763")
+		(uuid "c767638b-b2b9-49f5-bb51-9ce4e78816c5")
 		(property "Reference" "Q48"
 			(at 175.26 88.9001 0)
 			(effects
@@ -5515,7 +4173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMOS"
+		(property "Value" "G700P06D5"
 			(at 175.26 86.3601 0)
 			(effects
 				(font
@@ -5524,7 +4182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
 			(at 173.99 90.17 0)
 			(effects
 				(font
@@ -5579,13 +4237,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "e2f3a543-244b-4533-af52-b32cbb475cdf")
+			(uuid "9327d413-5e7f-4ff2-ac7c-0cca3ed46f54")
 		)
 		(pin "2"
-			(uuid "04ae193e-8f0b-416a-9aea-cc242f5687ad")
+			(uuid "b7eabfa1-e510-472d-9b2c-a685be249010")
 		)
 		(pin "1"
-			(uuid "9f93ad9f-686e-489e-8836-6256b9726f76")
+			(uuid "b3736a78-fff3-482a-8ce8-9c9a5c2c6a31")
 		)
 		(instances
 			(project "mqmars"
@@ -5598,16 +4256,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 101.6 38.1 270)
+		(at 156.21 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f127a6c7-c27a-4a65-9829-ca765f45f9ae")
-		(property "Reference" "D2"
-			(at 104.14 36.8299 90)
+		(uuid "d2513953-0ca1-47cc-bd34-7cdee8b8b317")
+		(property "Reference" "MMSZ5240BT1G5"
+			(at 138.43 37.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,8 +4272,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
-			(at 104.14 39.3699 90)
+		(property "Value" "10V1"
+			(at 148.59 39.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,8 +4281,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 101.6 38.1 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 156.21 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,7 +4291,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 38.1 0)
+			(at 156.21 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +4300,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 101.6 38.1 0)
+			(at 156.21 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5652,150 +4309,247 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd7df2fa-4a32-43a2-8c55-1db16440870f")
+			(uuid "13f8c2bd-8c28-48ea-853b-7bc181342645")
 		)
 		(pin "2"
-			(uuid "389ba0fc-62c9-4dc9-b681-12de4425909f")
+			(uuid "9111ffa0-d265-40c0-b861-509bb04c98f3")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "D2")
+					(reference "MMSZ5240BT1G5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 114.3 45.72 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f20f11cc-3a96-4c96-a1e7-9e42a1ffd844")
-		(property "Reference" "Q40"
-			(at 120.65 46.9901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 120.65 44.4501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 114.3 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 114.3 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 114.3 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 114.3 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 114.3 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e705fa78-bc99-460b-87f1-b02634d680a1")
-		)
-		(pin "2"
-			(uuid "3112aac5-e978-4b19-a5d6-e17108e6af7e")
-		)
-		(pin "1"
-			(uuid "ac137d33-a3f0-4dd2-a50f-fd77171e0095")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 147.32 59.69 180)
+		(lib_id "power:GND")
+		(at 50.8 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f555ccc6-9d75-4396-ada3-8c6aae1aadca")
-		(property "Reference" "R128"
-			(at 149.86 58.4199 0)
+		(uuid "dfa87816-b845-4eba-a165-7e1924d6c0e4")
+		(property "Reference" "#PWR0112"
+			(at 50.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "10K"
-			(at 149.86 60.9599 0)
+		(property "Value" "GND"
+			(at 50.8 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 149.098 59.69 90)
+		(property "Footprint" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41f59e2f-5060-42d6-a5d6-3cabdd49323f")
+		)
+		(instances
+			(project ""
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 66.04 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5edf912-b062-4192-bbec-a5481c85d82b")
+		(property "Reference" "#PWR0114"
+			(at 66.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 66.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 66.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2791d7f8-cd31-4ddb-8f10-4ad17f82dc01")
+		)
+		(instances
+			(project ""
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e61b2ff9-1f3e-4c7c-a8de-f0d52fe98fe6")
+		(property "Reference" "#PWR0117"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48f6471c-876d-4a0c-bd54-a49fc9d8c035")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 156.21 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb451ee1-1713-4040-9e28-6033e4c7ed90")
+		(property "Reference" "MMSZ5240BT1G6"
+			(at 138.43 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V1"
+			(at 148.59 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 156.21 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,7 +4558,146 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 147.32 59.69 0)
+			(at 156.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 156.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ad5918b-df21-46c6-b628-278b70ddb73a")
+		)
+		(pin "2"
+			(uuid "5f3384c6-1139-48b2-9bf1-1253bdd73655")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "MMSZ5240BT1G6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 50.8 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eeb9bfb5-6dd9-4eb4-b30a-4a3d6b43e9b5")
+		(property "Reference" "MMSZ5240BT1G1"
+			(at 33.02 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V1"
+			(at 43.18 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 50.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "825c0326-82c7-40c5-980c-5c30e2270e5c")
+		)
+		(pin "2"
+			(uuid "c000d47e-7ac2-4925-b4b6-b418b7bb8746")
+		)
+		(instances
+			(project ""
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "MMSZ5240BT1G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f55e595d-499b-464d-a419-8ce2a1d58469")
+		(property "Reference" "R107"
+			(at 158.75 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 158.75 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 154.432 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,7 +4706,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 147.32 59.69 0)
+			(at 156.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5822,15 +4715,84 @@
 			)
 		)
 		(pin "2"
-			(uuid "f23d5335-bb0e-43eb-b450-69135378ecc2")
+			(uuid "850c4703-e17b-4880-991b-989933940a84")
 		)
 		(pin "1"
-			(uuid "5eb1550d-19fb-4ea5-a818-f9fea0fdd12d")
+			(uuid "e31873f7-9653-44da-ab25-9fded094f192")
 		)
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "R128")
+					(reference "R107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 101.6 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6a31aae-92f1-4822-8485-70a71955ce0d")
+		(property "Reference" "MMSZ5240BT1G4"
+			(at 83.82 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10V1"
+			(at 93.98 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 101.6 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfb2b69b-f738-4aa3-a9e5-4cae05ffebf8")
+		)
+		(pin "2"
+			(uuid "80527d24-271c-470b-803f-60524844ab2c")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "MMSZ5240BT1G4")
 					(unit 1)
 				)
 			)
