@@ -519,43 +519,29 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "Transistor_FET:CSD25402Q3A"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "U"
+				(at 5.715 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "CSD25402Q3A"
+				(at 11.811 -0.127 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
+			(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+				(at 30.353 -4.699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -563,7 +549,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf"
+				(at 31.115 -2.413 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -572,34 +567,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+			(property "ki_keywords" "P-MOS PMOS single"
 				(at 0 0 0)
 				(effects
 					(font
@@ -608,7 +576,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "PMOS_0_1"
+			(property "ki_fp_filters" "VSON*3.3x3.3mm*P0.65mm*NexFET*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CSD25402Q3A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -775,7 +752,7 @@
 					)
 				)
 			)
-			(symbol "PMOS_1_1"
+			(symbol "CSD25402Q3A_1_1"
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -794,6 +771,42 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54) hide
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -804,7 +817,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -822,7 +835,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1829,106 +1842,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 168.91 45.72 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0734b390-5dcf-40a9-812b-2535a1e481da")
-		(property "Reference" "Q47"
-			(at 175.26 46.9901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G700P06D5"
-			(at 175.26 44.4501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
-			(at 173.99 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 168.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 168.91 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 168.91 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 168.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 168.91 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ab070783-e26b-41da-9ff2-a46d12333bb8")
-		)
-		(pin "2"
-			(uuid "3d056861-7367-4c26-8d09-39b72b9a32a6")
-		)
-		(pin "1"
-			(uuid "6baf7184-3b17-4e12-8a12-ed3c854e60d3")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:NPN")
 		(at 48.26 58.42 0)
 		(unit 1)
@@ -2154,7 +2067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 90.17 102.108 90)
 			(effects
 				(font
@@ -2224,7 +2137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 99.822 49.53 90)
 			(effects
 				(font
@@ -2292,7 +2205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 90.17 60.198 90)
 			(effects
 				(font
@@ -2460,7 +2373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 144.78 60.198 90)
 			(effects
 				(font
@@ -2503,206 +2416,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 63.5 87.63 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "486175d9-f1df-42c0-89c2-f73b53a5219f")
-		(property "Reference" "Q40"
-			(at 69.85 88.9001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G700P06D5"
-			(at 69.85 86.3601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
-			(at 68.58 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 63.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 63.5 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 63.5 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 63.5 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b93ce338-2264-4a3b-a720-fd4aa0957bb9")
-		)
-		(pin "2"
-			(uuid "6e737747-b73a-4764-ba81-bb0cdef69da4")
-		)
-		(pin "1"
-			(uuid "3d3c5b7c-60ee-4cb3-9a7b-c1a221d82b21")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 114.3 87.63 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "539ba1da-c129-45a8-807f-50779c0d6ef6")
-		(property "Reference" "Q44"
-			(at 120.65 88.9001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G700P06D5"
-			(at 120.65 86.3601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
-			(at 119.38 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 114.3 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 114.3 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 114.3 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 114.3 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 114.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c59f1b27-39f8-4870-89be-ef1357a359d5")
-		)
-		(pin "2"
-			(uuid "e3bfd923-bfdd-4881-a42f-6e814ce78083")
-		)
-		(pin "1"
-			(uuid "4f60dc60-cfd0-4c16-84c6-a14f2adfbd1f")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 66.04 73.66 0)
 		(unit 1)
@@ -2712,7 +2425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c10feaa-ce75-4eb9-a948-94ef4146d39f")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0103"
 			(at 66.04 77.47 0)
 			(effects
 				(font
@@ -2762,7 +2475,7 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0115")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -2894,7 +2607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 39.37 60.198 90)
 			(effects
 				(font
@@ -2937,7 +2650,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
+		(lib_id "Transistor_FET:CSD25402Q3A")
 		(at 114.3 45.72 0)
 		(mirror x)
 		(unit 1)
@@ -2945,7 +2658,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6c55f6c7-b2f4-46d6-b5a5-cfd44dd01fe3")
+		(uuid "6ef9ec52-86d4-4039-97b8-30bd91c8d7e5")
 		(property "Reference" "Q43"
 			(at 120.65 46.9901 0)
 			(effects
@@ -2964,8 +2677,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
-			(at 119.38 48.26 0)
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(at 144.653 41.021 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,8 +2686,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 114.3 33.02 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf"
+			(at 145.415 43.307 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +2695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
+		(property "Description" "-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -2991,41 +2704,20 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "PMOS"
-			(at 114.3 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 114.3 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 114.3 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "41f9cf38-b481-4e71-b555-f461626809f2")
-		)
 		(pin "2"
-			(uuid "6fdd6721-8ee0-44dd-912c-39d605760b3f")
+			(uuid "f0e998b3-4714-4e2c-a6cd-38711f59afea")
 		)
 		(pin "1"
-			(uuid "9749d554-adfd-4871-9d9f-3c6cc0811ee8")
+			(uuid "5031e7e4-eeb2-4887-a1ee-9eaaa2e43412")
+		)
+		(pin "4"
+			(uuid "cad172fa-a7f4-4b38-be07-bea9bc01d500")
+		)
+		(pin "3"
+			(uuid "e4fe926b-0172-465f-9088-005ffed67e5a")
+		)
+		(pin "5"
+			(uuid "a0999e9f-ba49-4be7-8eae-94e2f3267705")
 		)
 		(instances
 			(project "mqmars"
@@ -3045,8 +2737,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70b8b6c7-cd25-4fc2-9082-d36ed8237c48")
-		(property "Reference" "MMSZ5240BT1G3"
-			(at 83.82 37.084 90)
+		(property "Reference" "D3"
+			(at 95.25 37.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +2791,86 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "MMSZ5240BT1G3")
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:CSD25402Q3A")
+		(at 168.91 87.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7226b8f9-4244-4d04-8a1d-651e5a603756")
+		(property "Reference" "Q48"
+			(at 175.26 88.9001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G700P06D5"
+			(at 175.26 86.3601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(at 199.263 82.931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf"
+			(at 200.025 85.217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm"
+			(at 168.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6d00080-a4d7-4dcf-bce8-6137f88d858a")
+		)
+		(pin "1"
+			(uuid "387c637e-27a4-48a5-8802-c0dacf8c20d1")
+		)
+		(pin "4"
+			(uuid "b500ba78-d7bb-414c-8032-0cd7e2db856e")
+		)
+		(pin "3"
+			(uuid "c94be0ad-9ab2-4f8a-8b7f-36af19f57ac4")
+		)
+		(pin "5"
+			(uuid "802f8985-dd43-4360-a05f-c4c32a32244b")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "Q48")
 					(unit 1)
 				)
 			)
@@ -3131,7 +2902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 144.78 102.108 90)
 			(effects
 				(font
@@ -3174,6 +2945,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:CSD25402Q3A")
+		(at 63.5 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93671321-d2c8-467b-a602-ab8cc28b9552")
+		(property "Reference" "Q39"
+			(at 69.85 46.9901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G700P06D5"
+			(at 69.85 44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(at 93.853 41.021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf"
+			(at 94.615 43.307 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8d95ec7-23a8-4d9d-aaeb-e61c14f5eec3")
+		)
+		(pin "1"
+			(uuid "809d340e-1881-4f21-ac89-d9bb4b6747ec")
+		)
+		(pin "4"
+			(uuid "9d5a79d3-ea8c-4d6f-9456-8844e4b03f8b")
+		)
+		(pin "3"
+			(uuid "7c20a6b3-ffd5-4281-b7bd-5f7638179aa8")
+		)
+		(pin "5"
+			(uuid "2cba3105-f745-4e73-8c7b-85bc92951532")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "Q39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 50.8 80.01 270)
 		(unit 1)
@@ -3182,8 +3032,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "963fd67a-8e34-4bd4-99eb-5714f05f6823")
-		(property "Reference" "MMSZ5240BT1G2"
-			(at 33.02 78.994 90)
+		(property "Reference" "D2"
+			(at 43.942 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,107 +3086,7 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "MMSZ5240BT1G2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 63.5 45.72 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b94b253-8e61-45aa-a0cb-f87b3bf37934")
-		(property "Reference" "Q39"
-			(at 69.85 46.9901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G700P06D5"
-			(at 69.85 44.4501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
-			(at 68.58 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 63.5 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 63.5 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 63.5 28.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 63.5 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 63.5 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2d351ecc-4d21-4199-9fb7-631cda73849d")
-		)
-		(pin "2"
-			(uuid "4370cd35-797a-49b5-b63a-78f6d7e42da8")
-		)
-		(pin "1"
-			(uuid "6070ddc9-24c1-47aa-be13-79834ab45cef")
-		)
-		(instances
-			(project ""
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q39")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3370,7 +3120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 49.022 49.53 90)
 			(effects
 				(font
@@ -3440,7 +3190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 154.432 91.44 90)
 			(effects
 				(font
@@ -3492,7 +3242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d68d57d-f1a0-48f0-bda9-3f83612c44da")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0101"
 			(at 50.8 111.76 0)
 			(effects
 				(font
@@ -3542,7 +3292,7 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0113")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3676,7 +3426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 99.822 91.44 90)
 			(effects
 				(font
@@ -3719,6 +3469,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:CSD25402Q3A")
+		(at 114.3 87.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b045cddd-8765-43ee-a371-3856b159ec47")
+		(property "Reference" "Q44"
+			(at 120.65 88.9001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G700P06D5"
+			(at 120.65 86.3601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(at 144.653 82.931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf"
+			(at 145.415 85.217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "466eece8-cedc-4a1c-8143-591fefd3ae44")
+		)
+		(pin "1"
+			(uuid "b784acc7-4ead-445c-8674-7cef9985aad2")
+		)
+		(pin "4"
+			(uuid "57532c37-2ece-4b60-bebe-8a9786c27da5")
+		)
+		(pin "3"
+			(uuid "b60278af-6f72-485f-9c62-7b03fc7a97a7")
+		)
+		(pin "5"
+			(uuid "ac0a34e3-1da5-4600-bef3-511b5f863ea3")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "Q44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 63.5 0)
 		(unit 1)
@@ -3728,7 +3557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4e1e3e2-2beb-48fe-9d14-a99d73b6b50d")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0104"
 			(at 101.6 69.85 0)
 			(effects
 				(font
@@ -3778,7 +3607,7 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0116")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -3794,7 +3623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bafda4d8-1e7f-4fff-885e-f7df5e71b15f")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0106"
 			(at 156.21 69.85 0)
 			(effects
 				(font
@@ -3844,7 +3673,7 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0118")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -3878,7 +3707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 49.022 91.44 90)
 			(effects
 				(font
@@ -3930,7 +3759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c07bf1d8-d9e3-430e-86e0-bc5b9febc1fc")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0107"
 			(at 156.21 111.76 0)
 			(effects
 				(font
@@ -3980,7 +3809,7 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0119")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -4012,7 +3841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 39.37 102.108 90)
 			(effects
 				(font
@@ -4155,106 +3984,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 168.91 87.63 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c767638b-b2b9-49f5-bb51-9ce4e78816c5")
-		(property "Reference" "Q48"
-			(at 175.26 88.9001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G700P06D5"
-			(at 175.26 86.3601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:PQFN-8-EP_6x5mm_P1.27mm_Generic"
-			(at 173.99 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 168.91 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 168.91 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 168.91 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 168.91 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 168.91 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9327d413-5e7f-4ff2-ac7c-0cca3ed46f54")
-		)
-		(pin "2"
-			(uuid "b7eabfa1-e510-472d-9b2c-a685be249010")
-		)
-		(pin "1"
-			(uuid "b3736a78-fff3-482a-8ce8-9c9a5c2c6a31")
-		)
-		(instances
-			(project "mqmars"
-				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "Q48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Zener")
 		(at 156.21 38.1 270)
 		(unit 1)
@@ -4263,8 +3992,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2513953-0ca1-47cc-bd34-7cdee8b8b317")
-		(property "Reference" "MMSZ5240BT1G5"
-			(at 138.43 37.084 90)
+		(property "Reference" "D5"
+			(at 149.86 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4046,165 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "MMSZ5240BT1G5")
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:CSD25402Q3A")
+		(at 168.91 45.72 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3db3a70-4e3d-4a1e-b890-11e16eab04d2")
+		(property "Reference" "Q47"
+			(at 175.26 46.9901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G700P06D5"
+			(at 175.26 44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(at 199.263 41.021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf"
+			(at 200.025 43.307 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm"
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38e8f4f3-dff6-491f-ac7f-248ef06f60c7")
+		)
+		(pin "1"
+			(uuid "5eefafe3-e5ed-4450-909c-004e3bc000f2")
+		)
+		(pin "4"
+			(uuid "95bdb22d-1c0b-4d0f-bd12-48b52dadb72d")
+		)
+		(pin "3"
+			(uuid "94c017cd-0588-4774-80df-06c131126851")
+		)
+		(pin "5"
+			(uuid "58bc4760-a986-4e0f-b3cd-98d9255c9dff")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "Q47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:CSD25402Q3A")
+		(at 63.5 87.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de9de03d-9771-4d86-818f-594bf1b9b153")
+		(property "Reference" "Q40"
+			(at 69.85 88.9001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G700P06D5"
+			(at 69.85 86.3601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
+			(at 93.853 82.931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/csd25402q3a.pdf"
+			(at 94.615 85.217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-76A Id, -20V Vds, NexFET P-Channel Power MOSFET, 7.7mOhm Ron, Qg (typ) 7.5 nC, VSON-8 3.3x3.3mm"
+			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ebbc26a-af46-446c-a917-2214dcc70c44")
+		)
+		(pin "1"
+			(uuid "9bf6d6f2-7ea9-4c7e-b06c-281f07c199e4")
+		)
+		(pin "4"
+			(uuid "9b699a4a-ed85-44a0-986b-285d7d126262")
+		)
+		(pin "3"
+			(uuid "0def5fe9-d111-4ba1-9673-cab73d85dbf6")
+		)
+		(pin "5"
+			(uuid "8f284f79-5221-444d-bf11-64aec850c546")
+		)
+		(instances
+			(project "mqmars"
+				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
+					(reference "Q40")
 					(unit 1)
 				)
 			)
@@ -4333,7 +4220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfa87816-b845-4eba-a165-7e1924d6c0e4")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0100"
 			(at 50.8 69.85 0)
 			(effects
 				(font
@@ -4383,7 +4270,7 @@
 		(instances
 			(project ""
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0112")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -4399,7 +4286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5edf912-b062-4192-bbec-a5481c85d82b")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0102"
 			(at 66.04 35.56 0)
 			(effects
 				(font
@@ -4449,7 +4336,7 @@
 		(instances
 			(project ""
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0114")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -4465,7 +4352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e61b2ff9-1f3e-4c7c-a8de-f0d52fe98fe6")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0105"
 			(at 101.6 111.76 0)
 			(effects
 				(font
@@ -4515,7 +4402,7 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "#PWR0117")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -4530,8 +4417,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb451ee1-1713-4040-9e28-6033e4c7ed90")
-		(property "Reference" "MMSZ5240BT1G6"
-			(at 138.43 78.994 90)
+		(property "Reference" "D6"
+			(at 149.86 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +4471,7 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "MMSZ5240BT1G6")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4599,8 +4486,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eeb9bfb5-6dd9-4eb4-b30a-4a3d6b43e9b5")
-		(property "Reference" "MMSZ5240BT1G1"
-			(at 33.02 37.084 90)
+		(property "Reference" "D1"
+			(at 43.942 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,8 +4495,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10V1"
-			(at 43.18 39.624 90)
+		(property "Value" "MMSZ5240BT1G5"
+			(at 30.48 39.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4653,7 +4540,7 @@
 		(instances
 			(project ""
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "MMSZ5240BT1G1")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4687,7 +4574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 154.432 49.53 90)
 			(effects
 				(font
@@ -4738,8 +4625,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6a31aae-92f1-4822-8485-70a71955ce0d")
-		(property "Reference" "MMSZ5240BT1G4"
-			(at 83.82 78.994 90)
+		(property "Reference" "D4"
+			(at 95.25 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +4679,7 @@
 		(instances
 			(project "mqmars"
 				(path "/8894597e-8d75-4a50-a40b-c03d378d3f1b/14e75d12-7fc9-4516-90e8-f12e654fc5dc"
-					(reference "MMSZ5240BT1G4")
+					(reference "D4")
 					(unit 1)
 				)
 			)
